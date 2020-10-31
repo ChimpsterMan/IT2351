@@ -1,0 +1,8 @@
+i. Executive Summary
+In this assignment, I created an EER model and made a database from one. I got experience with creating normalized databases and also inserting and deleting my mistakes in them. I also worked with views and got some more practice with select statements.
+
+ii. Normalization / EER Model
+To normalize my data I followed the 3 normalization steps in their proper order, first I checked for repeating columns and multiple values in a cell. There were several classes in single cells so I first spaced it out into several more rows. Then I made sure the columns depended solely on the primary key so I decided to break off the classes column into its own table. In the process I added a second primary key to make it composite in order to store the data. This way there was much less repeating data. And then every column depended only on the primary key which was student id for both of them.
+
+iii. Conclusion
+I struggled a lot with the normalization partially because I felt like I needed to divide it more but it was actually fine the way it was. I learned a lot in the process but I still feel like I'm not very fluid with database creation yet. I also made my database with the model maker and inserted my data separately. It took me 3 hours to complete this assignment but to be honest most of it was confusion with outputting the database I made. I think muddling through has given me a better understanding but like I said I am still not confident in my abilities.
